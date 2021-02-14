@@ -1,0 +1,155 @@
+body{
+  /* display: grid; */
+  width: 75%;
+  background-color: white;
+  font-family: "Space Mono";
+  
+}
+*{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+#navbar{
+  /* height: 16%; */
+  
+  /* display: block; */
+  border-radius: 4px;
+  background-color: #f1C911;
+ border: 2px groove black;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 290px;
+ height: 100%;
+ min-width: 250px;
+ z-index: 1;
+
+}
+
+.main-section h3{
+  font-size: 20px;
+}
+
+#navbar li{
+  list-style-type: none;
+   border-bottom: 3px double black;
+  padding: 10px;
+  box-shadow: 6px 20px 5px -8px rgba(0,0,0,0.75);
+  margin-left: -220px;
+  padding-left: 200px;
+
+}
+#navbar a{
+  text-decoration: none;
+  color: black;
+
+  
+}
+.nav-link-li:hover{
+  background-color: black;
+  color: #f1C911;
+}
+#main-doc{
+  position: relative;
+  top: -20px;
+  left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: left;
+ }
+
+
+.footerclass{
+text-align: center;
+  color:white;
+ font-size: 1.3rem;
+}
+
+
+@media screen and (max-width: 700px){
+  #navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-height: 400px;
+    overflow-x: hidden;
+    z-index: 2;s
+  }
+}
+
+@media screen and (max-width: 700px){
+  #main-doc{
+  position: relative;
+  top: 400px;
+  left: 0px;
+  }
+}
+
+
+
+
+
+
+.img{
+  float: right;
+  width: 450px;
+  height: auto;
+  padding-right: 30px;
+
+}
+
+.img1 {
+  float: left;
+  width: 450px;
+  height: auto;
+  padding-right: 30px;
+
+}
+
+.img2 {
+  float: right;
+  width: 600px;
+  height: auto;
+  right: 40px;
+  padding-right: 30px;
+
+}
+.img3 {
+  float: left;
+  width: 600px;
+  height: auto;
+  right: 40px;
+  padding-right: 30px;
+
+}
+
+
+@media screen and (max-width: 700px){
+  .img{
+  float: right;
+  width: 500px;
+  height: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+  }
+}
+
+.h1-right{
+  text-align: center;
+}
+
+
+.padding{
+  padding-left:  100px;
+  padding-right: 100px;
+  text-indent: center;
+
+}
+
+
+section{
+  padding: 30px;
+  border-top: 2px solid black;
+}
